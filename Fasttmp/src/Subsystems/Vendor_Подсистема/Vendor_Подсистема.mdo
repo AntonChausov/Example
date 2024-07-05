@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a9d96b-8755-43b1-aa44-420bc5fea82b">
+  <name>Vendor_Подсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема Вендора</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Vendor_СправочникПримерСтарый</content>
+  <content>InformationRegister.Vendor_УдалитьРегистр</content>
+  <content>InformationRegister.Vendor_Регистр</content>
+  <content>Catalog.Vendor_СправочникПример</content>
+</mdclass:Subsystem>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94d5ab0d-5d5e-4914-a047-de564431c1d7">
+  <producedTypes>
+    <selectionType typeId="339124c6-223b-4c6e-8db0-694f329c6756" valueTypeId="a7197dca-c311-46f0-8fec-1190382a848d"/>
+    <listType typeId="6cb35032-1911-46e0-8b72-de4b2b2efa85" valueTypeId="de363b12-cbc9-4b3d-97c7-64dba441eba0"/>
+    <managerType typeId="355a885d-af73-40fa-977c-1317824da4bc" valueTypeId="e1ff01fb-c60b-40ff-86dd-be2f6a530f17"/>
+    <recordSetType typeId="f7c005a1-33d7-486b-aff4-6a7fa6317e5e" valueTypeId="e5359d39-1096-49bd-bbe0-99fa8a93e131"/>
+    <recordKeyType typeId="77fb950d-6fa0-43f6-b680-839ed3f830f3" valueTypeId="27a050d3-9136-4dfc-ab6a-a043e7c9569b"/>
+    <recordType typeId="9a3a5ea3-ddbd-471a-a80e-87a1953291ea" valueTypeId="84f24cc8-8036-4ecd-aac1-cc83c5cb5d6f"/>
+    <recordManagerType typeId="f5c372db-6f3c-482c-b708-276404d26337" valueTypeId="60bd98ed-3a88-40e7-8d89-e9d0246c62df"/>
+  </producedTypes>
+  <name>Vendor_УдалитьРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр пример (старый)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="42388eae-fd2c-4f02-90c5-e6048b9af45d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="67a06bf5-567c-43bc-beca-22091d90a8f6">
+    <name>Справочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Vendor_СправочникПримерСтарый</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

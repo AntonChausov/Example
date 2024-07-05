@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="946d2643-5e24-44f7-8c49-4242a0c50da5">
+  <producedTypes>
+    <objectType typeId="1679e78e-90ce-4a33-9618-c6dab430cfca" valueTypeId="8ec4b25d-4338-42e1-a1a2-400c595c4682"/>
+    <refType typeId="1f71d53a-47ba-4de9-baee-1f07e414d653" valueTypeId="edb3fa38-ebfe-42bd-837d-d427ed250ae6"/>
+    <selectionType typeId="1bdf83bd-f976-41a4-b671-fe7edd1d82ad" valueTypeId="f5daf1bd-0f0a-4abd-80f0-ae55b0a3b6a2"/>
+    <listType typeId="2d8f03f3-5713-4c98-8a76-567cfa249be4" valueTypeId="268f9599-e3ef-4455-9821-be94fb25ccf8"/>
+    <managerType typeId="f80cd357-1185-47f9-91a0-ed0eb9a9e1af" valueTypeId="3b1f89e1-5cab-427f-905a-c1355e4728f0"/>
+  </producedTypes>
+  <name>Vendor_СправочникПримерСтарый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник пример старый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Vendor_СправочникПримерСтарый.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Vendor_СправочникПримерСтарый.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Vendor_СправочникПримерСтарый.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Vendor_СправочникПримерСтарый.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Vendor_СправочникПримерСтарый.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="96f944f6-0077-4136-a52e-fb37c6a27d61">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f212948c-8c73-46fc-9ac0-01da6142f2f3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
